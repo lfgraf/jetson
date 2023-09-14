@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ai.pt Template</title>  <!-- Change the title -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        primary: {"50":"#f5f3ff","100":"#ede9fe","200":"#ddd6fe","300":"#c4b5fd","400":"#a78bfa","500":"#8b5cf6","600":"#7c3aed","700":"#6d28d9","800":"#5b21b6","900":"#4c1d95","950":"#2e1065"}
+      }
+    },
+    fontFamily: {
+      'body': [
+    'Noto Sans', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ],
+      'sans': [
+    'Noto Sans', 
+    'ui-sans-serif', 
+    'system-ui', 
+    '-apple-system', 
+    'system-ui', 
+    'Segoe UI', 
+    'Roboto', 
+    'Helvetica Neue', 
+    'Arial', 
+    'Noto Sans', 
+    'sans-serif', 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol', 
+    'Noto Color Emoji'
+  ]
+    }
+  }
+}
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"  rel="stylesheet" />
+</head>
+<body>
+<!-- Add your blocks here -->
+
+<!-- HERO STARTS -->
+<section class="bg-white dark:bg-gray-900">
+  <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-12 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div class="mr-auto place-self-center lg:col-span-7 xl:col-span-8">
+          <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Building digital products & brands.</h1>
+          <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+          <form action="#" class="">
+              <div class="flex items-center mb-3">
+                  <div class="relative w-auto mr-3">
+                      <label for="member_email" class="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
+                      <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                          <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                      </div>
+                      <input class="block md:w-96 w-full p-3 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Enter your email" type="email" name="member[email]" id="member_email" required="">
+                  </div>
+                  <div>
+                      <input type="submit" value="Try for free" class="px-5 py-3 text-sm font-medium text-center text-white rounded-lg cursor-pointer bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" name="member_submit" id="member_submit">
+                  </div>
+              </div>
+              <div class="text-sm text-left text-gray-500 dark:text-gray-300">Instant signup. No credit card required. <a href="#" class="text-primary-600 hover:underline dark:text-primary-500">Terms of Service</a> and <a class="text-primary-600 hover:underline dark:text-primary-500" href="#">Privacy Policy</a>.</div>
+          </form>
+      </div>
+      <div class="hidden lg:mt-0 lg:col-span-5 xl:col-span-4 lg:flex">
+          <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mobile-app.svg" alt="phone illustration">
+      </div>                
+  </div>
+</section>
+<!-- HERO FINISHES -->
+
+<!-- CONTENT STARTS -->
+<section class="bg-white dark:bg-gray-900">
+  <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Powering innovation at 200,000+ companies worldwide</h2>
+          <p class="mb-4">Empower Developers, IT Ops, and business teams to collaborate at high velocity. Respond to changes and deliver great customer and employee service experiences fast.</p>
+
+      </div>
+      <div class="mt-4 font-light text-gray-500 sm:text-lg lg:mt-0 dark:text-gray-400">
+          <p class="mb-4">Track work across the enterprise through an open, collaborative platform. Link issues across Jira and ingest data from other software development tools, so your IT support and operations teams have richer contextual information to rapidly respond to requests, incidents, and changes.</p>
+          <p>Deliver great service experiences fast - without the complexity of traditional ITSM solutions.Accelerate critical development work, eliminate toil, and deploy changes with ease, with a complete audit trail for every change.</p>
+      </div>
+  </div>
+</section>
+
+<!-- CONTENT FINISHES -->
+
+<!-- HOW IT WORKS STARTS -->
+
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class="text-center text-gray-900">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 lg:text-5xl dark:text-white">How it works</h2>
+          <a href="#" class="inline-flex items-center text-lg font-medium text-primary-600 hover:text-primary-800 dark:text-primary-500 dark:hover:text-primary-700">
+             Contact us
+              <svg class="ml-1 w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+          </a>
+      </div>
+      <div class="grid gap-6 mt-12 lg:mt-14 lg:gap-12 md:grid-cols-3">
+          <div class="flex mb-2 md:flex-col md:mb-0">
+              <img class="mr-4 w-auto h-36 md:w-full md:h-auto rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-content-1.png" alt="office image" />
+              <div>
+                  <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Build as one team</h3>
+                  <p class="text-gray-500 dark:text-gray-400">Work seamlessly across your organization on a platform designed for collaboration.</p>
+              </div>
+          </div>
+          <div class="flex mb-2 md:flex-col md:mb-0">
+              <img class="mr-4 w-auto h-36 md:w-full md:h-auto rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-content-2.png" alt="office image 2" />
+              <div>
+                  <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Transform your culture</h3>
+                  <p class="text-gray-500 dark:text-gray-400">Embrace innersource, iterate faster, and ship more frequently using best tools from open source teams.</p>
+              </div>
+          </div>
+          <div class="flex md:flex-col">
+              <img class="mr-4 w-auto h-36 md:w-full md:h-auto rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-content-3.png" alt="office image 3" />
+              <div>
+                  <h3 class="text-xl font-bold md:mt-4 mb-2.5 text-gray-900 dark:text-white">Learn as you build</h3>
+                  <p class="text-gray-500 dark:text-gray-400">Get insight into how your team builds today with community-backed KPIs.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS FINISHES -->
+
+
+<!-- FAQ STARTS -->
+
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 ">
+      <h2 class="mb-6 lg:mb-8 text-3xl lg:text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Frequently asked questions</h2>
+      <div class="mx-auto max-w-screen-md">
+          <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+              <h2 id="accordion-flush-heading-1">
+                  <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-900 bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+                      <span>Can I use Flowbite in open-source projects?</span>
+                      <svg data-accordion-icon="" class="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </button>
+              </h2>
+              <div id="accordion-flush-body-1" class="" aria-labelledby="accordion-flush-heading-1">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                      <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
+                      <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a href="#" class="text-primary-600 dark:text-primary-500 hover:underline">get started</a> and start developing websites even faster with components on top of Tailwind CSS.</p>
+                  </div>
+              </div>
+              <h2 id="accordion-flush-heading-2">
+                  <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+                      <span>Is there a Figma file available?</span>
+                      <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </button>
+              </h2>
+              <div id="accordion-flush-body-2" class="hidden" aria-labelledby="accordion-flush-heading-2">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                      <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
+                      <p class="text-gray-500 dark:text-gray-400">Check out the <a href="#" class="text-primary-600 dark:text-primary-500 hover:underline">Figma design system</a> based on the utility classes from Tailwind CSS and components from Flowbite.</p>
+                  </div>
+              </div>
+              <h2 id="accordion-flush-heading-3">
+                  <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+                      <span>What are the differences between Flowbite and Tailwind UI?</span>
+                      <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </button>
+              </h2>
+              <div id="accordion-flush-body-3" class="hidden" aria-labelledby="accordion-flush-heading-3">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                      <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+                      <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+                      <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                      <ul class="pl-5 list-disc text-gray-500 dark:text-gray-400">
+                          <li><a href="#" class="text-primary-600 dark:text-primary-500 hover:underline">Flowbite Pro</a></li>
+                          <li><a href="#" class="text-primary-600 dark:text-primary-500 hover:underline">Tailwind UI</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <h2 id="accordion-flush-heading-4">
+                  <button type="button" class="flex justify-between items-center py-5 w-full font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
+                      <span>What about browser support?</span>
+                      <svg data-accordion-icon="" class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </button>
+              </h2>
+              <div id="accordion-flush-body-4" class="hidden" aria-labelledby="accordion-flush-heading-4">
+                  <div class="py-5 border-b border-gray-200 dark:border-gray-700">
+                      <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
+                      <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
+                      <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
+                      <ul class="pl-5 list-disc text-gray-500 dark:text-gray-400">
+                          <li><a href="#" class="text-primary-600 dark:text-primary-500 hover:underline">Flowbite Pro</a></li>
+                          <li><a href="#" class="text-primary-600 dark:text-primary-500 hover:underline">Tailwind UI</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div> 
+      </div>               
+  </div>
+</section>
+
+<!-- FAQ FINISHES -->
+
+
+<!-- EMAIL SIGN-UP STARTS -->
+<section class="bg-white dark:bg-gray-900">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 ">
+      <div class="mx-auto max-w-screen-md text-center">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Get started with Jetson today</h2>
+          <p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">Connecting with your audience has never been easier with Flowbite straightforward email marketing and automation tools.</p>
+          <form action="#" class="mx-auto max-w-screen-sm">
+              <div class="flex items-center mb-3">
+                  <div class="relative mr-3 w-full">
+                      <label for="member_email" class="hidden mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Email address</label>
+                      <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                          <svg class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path></svg>
+                      </div>
+                      <input class="block p-3 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Enter your email" type="email" name="member[email]" id="member_email" required="">
+                  </div>
+                  <div>
+                      <input type="submit" value="Subscribe" class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg cursor-pointer bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800" name="member_submit" id="member_submit">
+                  </div>
+              </div>
+             
+          </form>
+      </div>
+  </div>
+</section>
+<!-- EMAIL SIGN-UP FINISHES -->
+
+
+<!-- FOOTER STARTS  -->
+<footer class="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
+  <div class="mx-auto max-w-screen-xl text-center">
+      <a href="#" class="flex justify-center items-center text-2xl font-semibold text-gray-900 dark:text-white">
+         
+          Jetson    
+      </a>
+      <p class="my-6 text-gray-500 dark:text-gray-400">Open-source library of over 400+ web components and interactive elements built for better web.</p>
+      <ul class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white">
+          <li>
+              <a href="#" class="mr-4 hover:underline md:mr-6 ">Resources</a>
+          </li>
+      </ul>
+      <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#" class="hover:underline">Jetson</a>. All Rights Reserved.</span>
+  </div>
+</footer>
+
+<!-- FOOTER FINISHES  -->
+
+<!-- Closing blocks -->
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</body>
+</html>
